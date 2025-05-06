@@ -1,4 +1,3 @@
-
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import Icon from "@/components/ui/icon";
@@ -16,7 +15,10 @@ const Header = () => {
         <Link to="/education" className="text-indigo-900 hover:text-indigo-600 font-medium">Образование</Link>
         <Link to="/about" className="text-indigo-900 hover:text-indigo-600 font-medium">О нас</Link>
       </nav>
-      <Button className="bg-indigo-600 hover:bg-indigo-700">Регистрироваться</Button>
+      <div className="flex gap-2">
+        <Button variant="outline" className="bg-white text-indigo-600 hover:bg-indigo-50">Войти</Button>
+        <Button className="bg-indigo-600 hover:bg-indigo-700">Регистрироваться</Button>
+      </div>
     </header>
   );
 };
