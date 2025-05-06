@@ -1,5 +1,4 @@
-
-import { Button } from "@/components/ui/button";
+}import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Link } from "react-router-dom";
@@ -20,7 +19,7 @@ const Index = () => {
           <Link to="/education" className="text-indigo-900 hover:text-indigo-600 font-medium">Образование</Link>
           <Link to="/about" className="text-indigo-900 hover:text-indigo-600 font-medium">О нас</Link>
         </nav>
-        <Button className="bg-indigo-600 hover:bg-indigo-700">Начать</Button>
+        <Button className="bg-indigo-600 hover:bg-indigo-700">Регистрироваться</Button>
       </header>
 
       {/* Hero Section */}
@@ -286,11 +285,10 @@ const Index = () => {
         </div>
         
         <div className="mt-12 pt-8 border-t text-center text-gray-500">
-          <p>© 2025 FUTURE TALK. Все права защищены.</p>
+          <p> 2025 FUTURE TALK. Все права защищены.</p>
         </div>
       </footer>
     </div>
   );
 };
-
 export default Index;
